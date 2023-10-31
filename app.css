@@ -1,0 +1,19 @@
+.SlotMachine{
+    background: rgb(190, 238, 112);
+    border: 5px solid rgb(113, 155, 240);
+    border-radius: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }

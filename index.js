@@ -1,0 +1,39 @@
+class App extends React.Component{
+    render(){
+        return(
+            <div>
+                <SlotMachine
+                    f1="🍒"
+                    f2="🍊"
+                    f3="🍇"
+            />
+                <SlotMachine
+                    f1="🍒"
+                    f2="🍊"
+                    f3="🍒"
+            />
+                <SlotMachine
+                    f1="🍇"
+                    f2="🍇"
+                    f3="🍇"
+            />
+                <SlotMachine
+                    f1="🍒"
+                    f2="🍒"
+                    f3="🍒"
+            />
+                <SlotMachine
+                    f1="🍇"
+                    f2="🍊"
+                    f3="🍒"
+            />
+                <SlotMachine
+                    f1="🍊"
+                    f2="🍊"
+                    f3="🍊"
+            />
+            </div>
+        );
+    }
+}
+ReactDOM.render(<App/>,document.getElementById('root'));
